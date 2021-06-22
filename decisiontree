@@ -1,19 +1,4 @@
 
-#Name - Madhura Deshpande 
-#       Data Science & Business Analytics Intern
-#       At The Sparks Foundation 
-
-
-#Task 6 - Decision Tree Classifier
-
-#Aim - 1. Create the Decision Tree classifier and visualize it graphically. 
-#      2. If we feed any new data to this classifier, it would be able to 
-#         predict the right class accordingly.
-
-
-#Dataset - Iris 
-
-
 #Required libraries - 
 library(rpart)
 library(rpart.plot)
@@ -105,8 +90,8 @@ plot_scatter+geom_point(data=d,aes(x=Petal.Length,y=Petal.Width,colour=pr),
                         size=4.5,shape=18,colour="black")
 
 #Conclusion - This decision tree classifier can classify different flowers
-#             into 3 species on the basis of variables petal length and petal width for classification of flowers into 3 
-#             with accuracy 95%.
+#             into 3 species on the basis of variables petal length and petal width   
+#             for classification with accuracy 95%.
 
 
 
